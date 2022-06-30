@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body{
+    background-color: #b9b9b9 ;
+}
+
+h1{
+    font-family: 'Island Moments';
+    background-color: #cbcbcb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    border: solid 2.5px #000;
+   
+    
+    
+}
+
+
+.navbar{
+    height: 80px;
+    margin-top: 30px;
+    width: 600px;
+    border: solid 2px #000;
+    
+    
+}
+
+.caro{
+    margin-top: 50px;
+    height: 450px;
+    border-radius: 50%;
+    border: solid 3px #ff0000;
+}
+
+.texto{
+    top: 200px;
+    left: 150px;
+    position: relative;
+    font-size: 40px;
+    width: fit-content;
+    
+}
+    
+    
+    
