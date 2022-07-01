@@ -6,10 +6,6 @@
 
 
 
-
-
-
-
 body{
     background-color: #b9b9b9 ;
 }
@@ -21,12 +17,8 @@ h1{
     height: 150px;
     border-radius: 50%;
     padding: 20px;
-    border: solid 2.5px #000;
-   
-    
-    
+    border: solid 2.5px #000; 
 }
-
 
 .navbar{
     height: 80px;
@@ -42,7 +34,9 @@ h1{
     height: 450px;
     border-radius: 50%;
     border: solid 3px #ff0000;
+    
 }
+
 
 .texto{
     top: 200px;
@@ -52,6 +46,102 @@ h1{
     width: fit-content;
     
 }
+     
+.footer{
+    font-family: 'Cascadia Code', 'sans-serif';
+    display: flex;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+    color: #Ffffff;
+}
+
+
+.imagenwhatsapp{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imagenwhatsapp:hover{
+    transform: rotateX(90deg);
+}
+
+.imagentwitter{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imagentwitter:hover{
+    transform: rotateX(90deg);
+}
+
+.imageninstagram{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imageninstagram:hover{
+    transform: rotateX(90deg);
+}
+
+.imagenfacebook{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imagenfacebook:hover{
+    transform: rotateX(90deg);
+}
+
+.imagentelegram{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imagentelegram:hover{
+    transform: rotateX(90deg);
+}
+
+.imagengmail{
+    height: 70px;
+    transition: all 0.5s;
+}
+
+.imagengmail:hover{
+    transform: rotateX(90deg);
+}
+
+@media (max-width: 1100px) {
+
+    .navbar {
+        width: 100vh;
+    }
+
+    .frozenhell{
+        width: 1100px;
+ 
+    }
+
     
     
-    
+   
+}
+
+@media (max-width: 576px){
+    .caro{
+        height: 320px;
+        
+    }
+
+    .texto{
+        left: 10px;
+        top: 100px;
+    }
+}
+
+
+
